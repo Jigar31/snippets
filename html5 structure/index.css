@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+nav {
+    background-color: cyan;
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    padding-bottom: 2.5rem;
+    background-color: green;
+    min-height: 81.1vh;
+}
+
+.main {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+aside {
+    text-align: center;
+    background-color: yellow;
+    height: 300%;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    background-color: khaki;
+    height: 300%;
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+    text-align: center;
+    background-color: lawngreen;
+    height: 50%;
+}
+
+footer {
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    text-align: center;
+    background: blue;
+}
